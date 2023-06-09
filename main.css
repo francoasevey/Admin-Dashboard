@@ -299,6 +299,39 @@ main{
     align-items: center;
     font-size: 1.3rem;
 }
+.red-icon{
+    color: #f56079;
+}
+.blue-icon{
+    color: #6c97f9;
+}
+.purple-icon{
+    color: #a974f7;
+}
+.content-box .operation-card{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    grid-gap: .5rem;
+    border-radius: var(--box-border-radius);
+    background: var(--second-bg-color);
+    box-shadow: var(--card-box-shadow);
+}
+.operation-card .icon{
+    padding: .8rem;
+    background: var(--bg-color);
+    border-radius: 5px;
+    font-size: 1.3rem;
+}
+.operation-card p{
+    font-weight: 600;
+    font-size: 12px;
+    color: var(--text-color);
+}
+.operation-card span{
+    font-size: .6rem;
+    color: var(--second-text-color);
+}
 
 .right-side{
     background: #878b8f;
