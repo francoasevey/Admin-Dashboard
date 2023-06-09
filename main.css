@@ -52,6 +52,28 @@ aside{
     box-shadow: var(--box-shadow);
     margin-top: 1rem;
 }
+.navigation{
+    padding: .8rem;
+}
+.top-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+.top-list .logo{
+    display: flex;
+    align-items: center;
+    gap: .3rem;
+    color: var(--text-color);
+}
+.top-list #closeBtn{
+    padding: 3px;
+    background: var(--hover-color);
+    border-radius: 5px;
+    cursor: pointer;
+    /*display: none;*/
+}
 main{
     background: #dddd;
 }
