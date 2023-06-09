@@ -397,3 +397,72 @@ main{
     color: var(--text-color);
     font-size: .8rem;
 }
+.middle{
+    background: var(--second-bg-color);
+    box-shadow: var(--box-shadow);
+    border-radius: var(--box-border-radius);
+    padding: .8rem;
+    margin-top: 1rem;
+}
+.middle .card{
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(#5d70ff , #5719c2);
+    padding: 1rem;
+    border-radius: var(--box-border-radius);
+    color: #fff;
+}
+.card .info p{
+    font-size: 1.1rem;
+    margin-bottom: 2.9rem;
+}
+.middle .card img{
+    width: 50px;
+    height: 50px;
+}
+.last-transaction{
+    margin-top: 1rem;
+}
+.content-transaction{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px auto;
+    padding: 7px;
+    cursor: pointer;
+    transform: scale(.9);
+    transition: all .3s ease;
+}
+.content-transaction:hover{
+    background: var(--bg-color);
+    border-radius: var(--box-border-radius);
+    box-shadow: rgba(50, 50, 93, 0.25)0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3)0px 18px 36px -18px;
+    transform: scale(1);
+}
+.service{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: .5rem;
+}
+.service .img-service{
+    display: inline-flex;
+    align-items: center;
+}
+.service .img-service img{
+    width: 35px;
+    height: auto;
+}
+.service .details h4{
+    font-size: .8rem;
+    color: var(--hover-color);
+}
+.content-transaction p{
+    font-size: .7rem;
+    color: var(--second-text-color);
+}
+.content-transaction .card-details h4{
+    font-size: 1rem;
+    color: var(--text-color);
+}
