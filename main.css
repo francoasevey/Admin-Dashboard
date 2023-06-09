@@ -181,7 +181,7 @@ main{
 }
 .content-box{
     display: grid;
-    grid-template-columns: 1f 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 1rem;
     margin-top: .5rem;
 }
@@ -194,6 +194,40 @@ main{
 .sell1{
     background: #ff2100;
     background-image: linear-gradient(180deg , #ff8776 0%, #ff6a88 55% , #ff2a51 100%);
+}
+.sell2{
+    background: #6b94f9;
+    background-image: linear-gradient(180deg , #8fd3f4 0%, #78a8f8 55% , #5684f7 100%);
+}
+.sell3{
+    background: #8c52ef;
+    background-image: linear-gradient(180deg , #ee9af7 0%, #c075f1 55% , #8c52ef 100%);
+}
+.sell-box .details{
+    display: flex;
+    justify-content: space-between;
+    color: var(--second-bg-color);
+}
+.sell-box .details h4{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.sell-box .details a{
+    background: #fff;
+    padding: 0 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: .9rem;
+    font-weight: 600;
+    color: var(--hover-color);
+}
+.sell-box .details a:hover{
+    background: var(--hover-color);
+    color: var(--second-bg-color);
+}
+.sell-box p{
+    font-size: .7rem;
+    color: var(--second-bg-color);
 }
 
 .right-side{
