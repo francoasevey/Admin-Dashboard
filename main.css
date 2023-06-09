@@ -332,7 +332,68 @@ main{
     font-size: .6rem;
     color: var(--second-text-color);
 }
-
 .right-side{
-    background: #878b8f;
+    min-height: 100vh;
+    margin-top: 1rem;
+}
+.topRight{
+    background: var(--second-bg-color);
+    box-shadow: var(--box-shadow);
+    border-radius: var(--box-border-radius);
+    padding: .8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+.topRight #menu-btn{
+    font-size: 2rem;
+    color: var(--text-color);
+    display: none;
+}
+.topRight .switch-theme{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 1.6rem;
+    width: 4.2rem;
+    font-size: 1.1rem;
+    background: var(--bg-color);
+    border-radius: 2rem;
+}
+.topRight .switch-theme span{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: var(--text-color);
+}
+.topRight .switch-theme span.active{
+    background: var(--hover-color);
+    border-radius: 2rem;
+    color: #fff;
+    transition: all .3s ease;
+}
+.topRight .profile{
+    display: flex;
+    text-align: right;
+    gap: 2rem;
+    align-items: center;
+}
+.topRight .profile img{
+    max-width: 100%;
+    width: 57px;
+    height: auto;
+    border-radius: 50%;
+    border: 2px solid var(--hover-color);
+}
+.topRight .profile .text-muted{
+    color: var(--second-text-color);
+    font-size: .8rem;
+}
+.topRight .profile .info p{
+    color: var(--text-color);
+    font-size: .8rem;
 }
