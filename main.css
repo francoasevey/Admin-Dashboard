@@ -179,6 +179,11 @@ main{
     margin: .5rem;
     color: var(--text-color);
 }
+.main-title a{
+    font-size: .7rem;
+    font-weight: 600;
+    color: var(--hover-color);
+}
 .content-box{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -228,6 +233,71 @@ main{
 .sell-box p{
     font-size: .7rem;
     color: var(--second-bg-color);
+}
+.data-box{
+    margin-top: 1rem;
+    background: var(--second-bg-color);
+    box-shadow: var(--box-shadow);
+    border-radius: var(--box-border-radius);
+    padding: .8rem;
+}
+.red-light{
+    background: #ffeaee;
+}
+.blue-light{
+    background: #e5eeff;
+}
+.purple-light{
+    background: #eee6ff;
+}
+.gray-light{
+    background: #f5f5f9;
+}
+.dark-red{
+    background: #f56079;
+    outline: 1px solid #f56079;
+    border: 1px solid #fff;
+}
+.dark-blue{
+    background: #6c97f9;
+    outline: 1px solid #6c97f9;
+    border: 1px solid #fff;
+}
+.dark-purple{
+    background: #a974f7;
+    outline: 1px solid #a974f7;
+    border: 1px solid #fff;
+}
+.payment-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border-radius: var(--box-border-radius);
+    box-shadow: var(--box-shadow);
+}
+.info{
+    display: grid;
+    align-items: center;
+}
+.info .amount{
+    font-size: .9rem;
+}
+.info .amount-value{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.info .amount-day{
+    font-size: .7rem;
+    color: var(--second-text-color);
+}
+.payment-card .icon{
+    padding: .7rem;
+    border-radius: 50%;
+    color: #fff;
+    display: inline-flex;
+    align-items: center;
+    font-size: 1.3rem;
 }
 
 .right-side{
