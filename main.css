@@ -72,7 +72,11 @@ aside{
     background: var(--hover-color);
     border-radius: 5px;
     cursor: pointer;
-    /*display: none;*/
+    display: none;
+}
+.top-list #closeBtn ion-icon{
+    font-size: 1.4rem;
+    color: #ffff;
 }
 main{
     background: #dddd;
