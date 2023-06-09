@@ -127,8 +127,75 @@ aside .sidebar .last{
 }
 
 main{
-    background: #dddd;
+    margin-top: 1rem;
 }
+.topCenter{
+    background: var(--second-bg-color);
+    box-shadow: var(--box-shadow);
+    border-radius: var(--box-border-radius);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .8rem;
+}
+.header-title h1{
+    font-size: 1.6rem;
+    color: var(--text-color);
+}
+.header-title span{
+    font-size: .9rem;
+    color: var(--second-text-color);
+}
+.searchBox{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border: 2px solid var(--hover-color);
+    border-radius: var(--box-border-radius);
+    padding: 6px 10px;
+    background: var(--bg-color);
+}
+.searchBox input{
+    background: transparent;
+    padding: 3px;
+    color: var(--text-color);
+}
+.searchBox ion-icon{
+    color: var(--hover-color);
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all .5s ease-out;
+}
+.searchBox ion-icon:hover{
+    transform: scale(1.1);
+}
+.main-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main-title h3{
+    font-size: 1rem;
+    margin: .5rem;
+    color: var(--text-color);
+}
+.content-box{
+    display: grid;
+    grid-template-columns: 1f 1fr 1fr;
+    grid-gap: 1rem;
+    margin-top: .5rem;
+}
+.sell-box{
+    border-radius: 5px;
+    position: relative;
+    padding: 1rem;
+    box-shadow: var(--box-shadow);
+}
+.sell1{
+    background: #ff2100;
+    background-image: linear-gradient(180deg , #ff8776 0%, #ff6a88 55% , #ff2a51 100%);
+}
+
 .right-side{
     background: #878b8f;
 }
