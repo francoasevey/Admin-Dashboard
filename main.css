@@ -51,6 +51,7 @@ aside{
     width: 100%;
     box-shadow: var(--box-shadow);
     margin-top: 1rem;
+    position: relative;
 }
 .navigation{
     padding: .8rem;
@@ -465,4 +466,33 @@ main{
 .content-transaction .card-details h4{
     font-size: 1rem;
     color: var(--text-color);
+}
+
+@media screen and (max-width:1200px) {
+    .container{
+        grid-template-columns: 6rem auto 20rem;
+    }   
+    .top-list .logo h2{
+        display: none;
+    }
+    .sidebar .list .title{
+        display: none;
+    }
+    .top-list{
+        justify-content: center;
+    }
+    .sidebar ul li a{
+        justify-content: center;
+        width: auto;
+        padding: 0;
+    }
+    aside .sidebar .last{
+        left: 0;
+    }
+    .content-box{
+        grid-template-columns: 1fr;
+    }
+    .searchBox{
+        padding: 3px 10px;
+    }
 }
