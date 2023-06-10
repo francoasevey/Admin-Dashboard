@@ -24,6 +24,18 @@
     --card-box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px,
     rgba(0, 0, 0, 0.5) 0px 1px 1px 0px;
 }
+.dark-theme-details{
+    --text-color: #ffff;
+    --second-text-color: #b3aaaa;
+    --bg-color: #121215;
+    --second-bg-color: #373232;
+    --icon-color: #fff;
+    --box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px,
+    rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    --card-box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
+    rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
 body{
     font-family: 'Poppins', sans-serif;
     background: var(--bg-color);
